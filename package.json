@@ -4,7 +4,8 @@
   "description": "",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon src/app.js"
   },
   "author": "",
   "license": "ISC",
@@ -12,11 +13,10 @@
     "body-parser": "^1.18.3",
     "ejs": "^2.6.1",
     "express": "^4.16.3",
-<<<<<<< HEAD
-    "lodash": ">=4.17.12",
-=======
-    "lodash": "^4.17.13",
->>>>>>> ae6ebb28afe7d2afc8fe6d9a6b9c61f2d8772bcc
+    "lodash": "^4.17.19",
     "mongoose": "^5.9.20"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
   }
 }
