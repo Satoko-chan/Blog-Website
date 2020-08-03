@@ -1,12 +1,13 @@
 <%- include("partials/header"); -%>
-
+<% let i = 1%>
 <div class="row row-cols-1 row-cols-lg-4 m-3">
-  <% let i=1; %>
   <% posts.forEach(function(post){ %>
+  <%let imgSrc="/images/img" + i + ".jpg"%>
   <div class="card h-100 mb-3 card-img-top">
     <a href="/posts/<%=post._id%>">
-      <img src="/images/img" + <%i;%> +".jpg">
-      <% i++; %> </a>
+      <img src=<% imgSrc%>>
+      <% i++ %>
+    </a>
     <div class="card-body" style="font-family: 'Quicksand', sans-serif;">
       <h2 class="card-title"><%=post.title%></h2>
       <p class="card-text" style="color: #545454;">

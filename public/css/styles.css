@@ -7,6 +7,13 @@ a {
   text-decoration: none;
 }
 
+body {
+  /* background: rgb(158,58,180);
+background: linear-gradient(0deg, rgba(252,176,69,1) 0%, rgba(238,88,149,1) 50%, rgb(170, 84, 189) 100%); */
+background: rgb(180,131,203);
+background: radial-gradient(circle, rgba(180,131,203,1) 0%, rgba(223,92,158,1) 100%);
+}
+
 .container {
     padding: 10% 18%;
     
