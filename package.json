@@ -1,7 +1,7 @@
 {
   "name": "ejs-challenge",
   "version": "1.0.0",
-  "description": "",
+  "description": "Blog website project using EJS and MongoDB.",
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -20,5 +20,13 @@
   },
   "devDependencies": {
     "nodemon": "^2.0.4"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Satoko-chan/Blog-Website.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Satoko-chan/Blog-Website/issues"
+  },
+  "homepage": "https://github.com/Satoko-chan/Blog-Website#readme"
 }
